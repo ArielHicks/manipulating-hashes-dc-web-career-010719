@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   groceries.values.flatten
-  
+
 
 end
 
@@ -16,23 +16,23 @@ end
 second_challenge
 
 supply = ["Fireworks", "BBQ"]
-  
+
 supply.join(", ")
 
 
 
 def capitalize(array)
-    i = 0 
+    i = 0
     array2 = []
-    while i < array.length 
+    while i < array.length
       array2.push(array[i].capitalize)
-      i += 1 
-    end 
+      i += 1
+    end
     array2
-end 
+end
 
 
-holiday = :new_years 
+holiday = :new_years
 y = holiday.to_s.split("_")
 
 capitalize(y).join(" ")
